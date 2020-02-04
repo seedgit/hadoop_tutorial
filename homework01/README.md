@@ -23,3 +23,6 @@
 * You can use common Linux command (e.g, ls cat mkdir) by place it after ```“hadoop fs”```  
 E.g., ```hadoop fs –mkdir /user/cloudera/lab01``` 
 * Because we use virtual machine image from cloudera, you must run ```export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar``` in terminal before compile your java program
+* You can compile code using ```hadoop com.sun.tools.javac.Main WordCount.java``` but be careful(for none java experience). Your class name must be the same as your file name. (e.g., WordCount.java must contain class WordCount)
+* use ```jar cf wc.jar WordCount*.class``` to combine your compiled class into sigle jar file
+* You can run your mapReduce program by using command ```hadoop jar wc.jar WordCount /user/cloudera/lab01/input /user/cloudera/lab01/output```
