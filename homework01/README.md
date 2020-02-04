@@ -8,11 +8,11 @@ In your virtual machine. Download input file according to your student id from g
 
 Make folder “/user/cloudera/lab01/input” in your HDFS 
 
-Put your input file into 4) by using ```“hadoop fs –put”``` or ```“hadoop fs –copyFromLocal"``` 
+Put your input file into 4) by using ```“hadoop fs –put localPath destPath”``` or ```“hadoop fs –copyFromLocal  localPath destPath"``` 
 
 Write WordCount program to count word of your input file 
 
-Download your output result using ```“hadoop fs –get"``` or ```“hadoop fs –copyToLocal"``` 
+Download your output result using ```“hadoop fs –get hdfsPath localPath"``` or ```“hadoop fs –copyToLocal hdfsPath localPath"``` 
 
 Change your output filename into format of your student id and type is “.out.txt” 
 
