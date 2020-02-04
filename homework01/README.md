@@ -20,5 +20,5 @@ Submit your output file back to google classroom Hadoop Lab01
 
 ## Hadoop Tip! 
 
-You can use common Linux command (e.g, ls cat mkdir) by place it after “hadoop fs”  
-E.g., hadoop fs –mkdir /user/cloudera/lab01 
+You can use common Linux command (e.g, ls cat mkdir) by place it after ```“hadoop fs”```  
+E.g., ```hadoop fs –mkdir /user/cloudera/lab01``` 
