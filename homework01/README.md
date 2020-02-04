@@ -26,3 +26,4 @@ E.g., ```hadoop fs –mkdir /user/cloudera/lab01```
 * You can compile code using ```hadoop com.sun.tools.javac.Main WordCount.java``` but be careful(for none java experience). Your class name must be the same as your file name. (e.g., WordCount.java must contain class WordCount)
 * use ```jar cf wc.jar WordCount*.class``` to combine your compiled class into sigle jar file
 * You can run your mapReduce program by using command ```hadoop jar wc.jar WordCount /user/cloudera/lab01/input /user/cloudera/lab01/output```
+* For more information please visit hadoop official website (https://hadoop.apache.org/docs/r2.6.5/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)[https://hadoop.apache.org/docs/r2.6.5/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html]). And be careful, to write java program, compile and run might be different depened on Apache Hadoop Version
